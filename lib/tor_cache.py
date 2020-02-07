@@ -5,10 +5,11 @@ from flask import render_template
 from flask import make_response
 import flask
 import werkzeug.wrappers
+import cachelib
 from flask import current_app as app
 import inspect
 import sys
-from werkzeug.contrib.cache import MemcachedCache
+from cachelib.memcached import MemcachedCache
 import os
 import functools 
 import logging
