@@ -1,6 +1,7 @@
 # TODO: slim down the requirements
 pony
-PyMySQL
+PyMySQL[rsa]
+#cryptography
 py-pretty
 cachelib
 elasticsearch>=5.0.0,<6.0.0
