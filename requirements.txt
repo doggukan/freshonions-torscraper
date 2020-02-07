@@ -1,6 +1,7 @@
 scrapy
 pony==0.7.3
 PyMySQL
+cachelib
 py-pretty
 pycrypto
 elasticsearch>=5.0.0,<6.0.0
