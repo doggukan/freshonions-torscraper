@@ -1,4 +1,4 @@
-FROM python:2.7-alpine
+FROM python:3.8
 MAINTAINER Olivier Bilodeau <obilodeau@gosecure.ca>
 
 RUN apk update && \
