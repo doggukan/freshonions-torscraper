@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:2.7
 MAINTAINER Olivier Bilodeau <obilodeau@gosecure.ca>
 # Modified from a Dockerfile by Madison Bahmer <madison.bahmer@istresearch.com>
 # Under the MIT license
