@@ -8,7 +8,7 @@ http_proxy="" https_proxy="" wget --no-check-certificate -O $TOR2WEB_JSON https:
 $SCRIPTDIR/import_tor2web.py $TOR2WEB_JSON > $LIST
 rm $TOR2WEB_JSON
 
-$SCRIPTDIR/extract_from_url.sh 'https://danwin1210.me/onions.php?format=text' >> $LIST
+$SCRIPTDIR/extract_from_url.sh 'https://onions.danwin1210.me/onions.php?format=text' >> $LIST
 $SCRIPTDIR/extract_from_url.sh 'http://www.thehackerstore.net/2015/07/huge-list-of-darknet-deep-web-hidden.html' >> $LIST
 $SCRIPTDIR/extract_from_url.sh 'https://thehiddenwiki.org/' >> $LIST
 $SCRIPTDIR/extract_from_url.sh 'https://torhiddenwiki.com/' >> $LIST
